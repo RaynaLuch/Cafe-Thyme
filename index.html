@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Thyme</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&family=Noto+Serif+Display&family=Noto+Serif:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html"
+        ><img src="./images/Mask group.png" alt="Logo"
+      /></a>
+      <ul>
+        <li><a href="">Reservation</a></li>
+        <li><a href="">Menu</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About Us</a></li>
+      </ul>
+      <a href="">Booking a table online</a>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h1>Welcome to</h1>
+          <a href="">Menu</a>
+          <h1>Thyme</h1>
+        </div>
+      </section>
+      <section>
+        <div>
+          <div>
+            <h2>Special menu</h2>
+            <p>Our most delicious dishes for you</p>
+            <ul>
+              <li><button type="button">Appetizers</button></li>
+              <li><button type="button">Salads</button></li>
+              <li><button type="button">Soups</button></li>
+              <li><button type="button">Meat</button></li>
+              <li><button type="button">Desserts</button></li>
+            </ul>
+            <ul>
+              <li><button type="button"><</button></li>
+              <li><button type="button">></button></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <img src="" alt="" />
+                <h3>Special Eggplants Snack</h3>
+                <p>Marinated eggplants, special sauce, greens</p>
+                <ul>
+                  <li><span>Category:</span><span>Appetizers</span></li>
+                  <li><span>Availibility:</span><span>Available</span></li>
+                  <li><span>Weight:</span><span>120 g</span></li>
+                  <li><span>Vegetarian:</span><span>Yes</span></li>
+                </ul>
+                <p>$4.50</p>
+              </li>
+              <li>
+                <img src="" alt="" />
+                <h3>Chick Soup With Rice</h3>
+                <p>Chick, round rice, onion, carrot, cherry plums,turmeric</p>
+                <ul>
+                  <li><span>Category:</span><span>Soups</span></li>
+                  <li><span>Availibility:</span><span>Available</span></li>
+                  <li><span>Weight:</span><span>130 g</span></li>
+                  <li><span>Vegetarian:</span><span>No</span></li>
+                </ul>
+                <p>$8.20</p>
+              </li>
+              <li>
+                <img src="" alt="" />
+                <h3>Beef Languet With Potato</h3>
+                <p>Beef tenderloin, butter, black pepper, tomatoes, potato</p>
+                <ul>
+                  <li><span>Category:</span><span>Meat Courses</span></li>
+                  <li><span>Availibility:</span><span>Available</span></li>
+                  <li><span>Weight:</span><span>220 g</span></li>
+                  <li><span>Vegetarian:</span><span>No</span></li>
+                </ul>
+                <p>$18.50</p>
+              </li>
+              <li>
+                <img src="" alt="" />
+                <h3>Chicken Languet With Potato</h3>
+                <p>Chicken fillet, potato, tomatoes</p>
+                <ul>
+                  <li><span>Category:</span><span>Chicken Courses</span></li>
+                  <li><span>Availibility:</span><span>Available</span></li>
+                  <li><span>Weight:</span><span>220 g</span></li>
+                  <li><span>Vegetarian:</span><span>No</span></li>
+                </ul>
+                <p>$12.50</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div>
+        <h2>Our best dishes</h2>
+        <p>The best dishes of the city for our clients.</p>
+        <img src="./images/Rectangle 30.jpg" alt="" />
+        <img src="./images/Rectangle 31.jpg" alt="" />
+        <img src="./images/Rectangle 32 (1).png" alt="" />
+        <img src="./images/Rectangle 34.jpg" alt="" />
+        <img src="./images/Rectangle 33.jpg" alt="" />
+        <img src="./images/Rectangle 35.jpg" alt="" />
+      </div>
+      <section>
+        <div>
+          <div>
+            <h2>Reservation</h2>
+            <p>
+              We provide free, secure and instantly confirmed online
+              reservation.
+            </p>
+          </div>
+          <div>
+            <input
+              class="modal-input"
+              type="text"
+              name="full-name"
+              placeholder="Full Name"
+            />
+            <input
+              class="modal-input"
+              type="tel"
+              name="phone-number"
+              placeholder="Phone Number"
+            />
+            <textarea
+              class="modal-textarea"
+              name="user-comment"
+              placeholder="Message"
+            ></textarea>
+            <label for="quantity">Guests</label>
+            <input
+              class="modal-input"
+              id="quantity"
+              type="number"
+              name="quantity"
+              placeholder="12"
+            />
+            <label for="date">Date</label>
+            <input
+              class="modal-input"
+              id="date"
+              type="date"
+              name="date"
+              placeholder="dd/mm/yy"
+            />
+            <label for="time">Time</label>
+            <input
+              class="modal-input"
+              id="time"
+              type="time"
+              name="time"
+              placeholder="00:00"
+            />
+            <button type="button">Book</button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Today Menu</h2>
+          <p>Dish of the day</p>
+          <div>
+            <img src="" alt="" />
+          </div>
+          <div>
+            <h3>Chick Soup With Rice</h3>
+            <p>
+              Ingredients Chick, round rice, onion, carrot, cherry plums,
+              turmeric.
+            </p>
+            <button type="button">-</button>
+            <input type="number" name="number" placeholder="1" />
+            <button type="button">+</button>
+            <p>$8.20</p>
+            <p>$7.38</p>
+            <ul>
+              <li><span>Category:</span><span>Meat Courses</span></li>
+              <li><span>Availibility:</span><span>Available</span></li>
+              <li><span>Weight:</span><span>220 g</span></li>
+              <li><span>Vegetarian:</span><span>No</span></li>
+            </ul>
+            <button type="button">Add to card</button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>About Us</h2>
+          <p>
+            Restoring authenticity to food from the ground up is the missioin
+            that drives us. Restauration is the realization of a dream.
+          </p>
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <p>
+            Since 1987, at your service. After 16 years in the restaurant
+            business, 9 in farming, and several years dedicated to the study of
+            nutrition, we decided now was the right time to take all that
+            experience and synthesize it into a local eatery where people can
+            enjoy exquisite food, support local food producers, and eat the kind
+            of food they can feel good about.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Our Services</h2>
+          <p>This is what we do and we do it perfectly.</p>
+          <div>
+            <ul>
+              <li>
+                <div>
+                  <svg width="64" height="64">
+                    <use href=""></use>
+                  </svg>
+                </div>
+                <p>Fresh Healthy Food</p>
+              </li>
+              <li>
+                <div>
+                  <svg width="64" height="64">
+                    <use href=""></use>
+                  </svg>
+                </div>
+                <p>Free Fast Home Delivery</p>
+              </li>
+              <li>
+                <div>
+                  <svg width="64" height="64">
+                    <use href=""></use>
+                  </svg>
+                </div>
+                <p>Discount Voucher</p>
+              </li>
+              <li>
+                <div>
+                  <svg width="64" height="64">
+                    <use href=""></use>
+                  </svg>
+                </div>
+                <p>On Time Service</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <div>
+            <h2>Meet our chefs</h2>
+            <p>What can be better than food prepared with love</p>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <img src="" alt="" />
+                <h3>Andy Warhol</h3>
+                <p>Head of Chef</p>
+              </li>
+              <li>
+                <img src="" alt="" />
+                <h3>Lusia Manuel</h3>
+                <p>Assistant Chef</p>
+              </li>
+              <li>
+                <img src="" alt="" />
+                <h3>Michael Blair</h3>
+                <p>Intern Chef</p>
+              </li>
+              <li>
+                <img src="" alt="" />
+                <h3>Tereza Stiles</h3>
+                <p>Assistant Chef</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <div>
+            <h2>Our Awards</h2>
+            <p>
+              Our Restaurant is the best restourant in the country and been
+              recognized with many awards. We promise to provide excellent
+              service to you forever for happiness and success. For getting more
+              details please visit us.
+            </p>
+          </div>
+          <div>
+            <ul>
+              <li><img src="" alt="" /></li>
+              <li><img src="" alt="" /></li>
+              <li><img src="" alt="" /></li>
+              <li><img src="" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <div>
+          <img src="./images/image 367.png" alt="Logo" />
+        </div>
+        <div>
+          <ul>
+            <li><a href="">Reservation</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <address>
+            <ul>
+              <li>2903 Avenue X, Brooklyn, NY</li>
+              <li>(+100) 123 456 7890</li>
+              <li>info@thyme.com</li>
+              <li>Mon - Sun / 9:00AM - 8:00PM</li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <div>
+            <svg width="64" height="64">
+              <use href=""></use>
+            </svg>
+          </div>
+          <p>Back to top</p>
+        </div>
+      </div>
+      <div>
+        <p>Subscribe our Newsletter</p>
+        <input
+          type="email"
+          name="email-footer"
+          placeholder="Your email address..."
+        />
+        <button type="button">SUBSCRIBE</button>
+      </div>
+      <div>
+        <p>Terms & Conditions</p>
+        <p>Privacy Policy</p>
+        <p>Copyright © 2020 All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
