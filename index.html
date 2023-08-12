@@ -21,145 +21,293 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html"
-        ><img src="./images/Mask group.png" alt="Logo"
-      /></a>
-      <ul>
-        <li><a href="">Reservation</a></li>
-        <li><a href="">Menu</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">About Us</a></li>
-      </ul>
-      <a href="">Booking a table online</a>
-    </header>
+    <div class="bk-ground">
+      <header>
+        <div class="container header-menu">
+          <nav class="header-nav">
+            <a class="link header-logo" href="./index.html"
+              ><img src="./images/Mask group.png" alt="Logo"
+            /></a>
+            <ul class="list header-menu-list">
+              <li>
+                <a class="link header-menu-item" href="#Reservation"
+                  >Reservation</a
+                >
+              </li>
+              <li><a class="link header-menu-item" href="#Menu">Menu</a></li>
+              <li>
+                <a class="link header-menu-item" href="#Contacts">Contacts</a>
+              </li>
+              <li>
+                <a class="link header-menu-item" href="#About">About Us</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-booking-style">
+            <a class="link header-booking" href="#Reservation"
+              >Booking a table online</a
+            >
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="container hero-container">
+          <h1 clacc="hero-title">
+            Welcome <br />to
+            <a class="link hero-menu" href="#Menu">Menu</a>
+            Thyme
+          </h1>
+        </div>
+      </section>
+    </div>
     <main>
-      <section>
-        <div>
-          <h1>Welcome to</h1>
-          <a href="">Menu</a>
-          <h1>Thyme</h1>
-        </div>
-      </section>
-      <section>
-        <div>
-          <div>
-            <h2>Special menu</h2>
-            <p>Our most delicious dishes for you</p>
-            <ul>
-              <li><button type="button">Appetizers</button></li>
-              <li><button type="button">Salads</button></li>
-              <li><button type="button">Soups</button></li>
-              <li><button type="button">Meat</button></li>
-              <li><button type="button">Desserts</button></li>
+      <section class="section-top section-bottom">
+        <div class="container menu-container">
+          <div class="menu-button-container">
+            <h2 id="Menu" class="section-title">Special menu</h2>
+            <p class="text menu-text">Our most delicious dishes for you</p>
+            <ul class="list menu-button-set">
+              <li>
+                <button class="menu-button" type="button">Appetizers</button>
+              </li>
+              <li><button class="menu-button" type="button">Salads</button></li>
+              <li><button class="menu-button" type="button">Soups</button></li>
+              <li><button class="menu-button" type="button">Meat</button></li>
+              <li>
+                <button class="menu-button" type="button">Desserts</button>
+              </li>
             </ul>
-            <ul>
-              <li><button type="button"><</button></li>
-              <li><button type="button">></button></li>
+            <ul class="list slider-button-set">
+              <li><button class="slider-button" type="button"><</button></li>
+              <li><button class="slider-button" type="button">></button></li>
             </ul>
           </div>
           <div>
-            <ul>
-              <li>
-                <img src="" alt="" />
-                <h3>Special Eggplants Snack</h3>
-                <p>Marinated eggplants, special sauce, greens</p>
-                <ul>
-                  <li><span>Category:</span><span>Appetizers</span></li>
-                  <li><span>Availibility:</span><span>Available</span></li>
-                  <li><span>Weight:</span><span>120 g</span></li>
-                  <li><span>Vegetarian:</span><span>Yes</span></li>
-                </ul>
-                <p>$4.50</p>
+            <ul class="list card-menu-set">
+              <li class="card-menu-style">
+                <div>
+                  <img
+                    class="card-menu-img"
+                    src="./images/card-menu1.jpg"
+                    alt="Special Eggplants Snack"
+                    width="270"
+                  />
+                  <h3 class="card-menu-title">Special Eggplants Snack</h3>
+                  <p class="card-menu-text">
+                    Marinated eggplants, special sauce, greens
+                  </p>
+                  <ul class="list">
+                    <li class="card-menu-item">
+                      <span>Category:</span><span>Appetizers</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Availibility:</span><span>Available</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Weight:</span><span>120 g</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Vegetarian:</span><span>Yes</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-menu-price-bg">
+                  <p class="card-menu-price">$4.50</p>
+                </div>
               </li>
-              <li>
-                <img src="" alt="" />
-                <h3>Chick Soup With Rice</h3>
-                <p>Chick, round rice, onion, carrot, cherry plums,turmeric</p>
-                <ul>
-                  <li><span>Category:</span><span>Soups</span></li>
-                  <li><span>Availibility:</span><span>Available</span></li>
-                  <li><span>Weight:</span><span>130 g</span></li>
-                  <li><span>Vegetarian:</span><span>No</span></li>
-                </ul>
-                <p>$8.20</p>
+              <li class="card-menu-style">
+                <div>
+                  <img
+                    class="card-menu-img"
+                    src="./images/card-menu2.jpg"
+                    alt="Chick Soup With Rice"
+                    width="270"
+                  />
+                  <h3 class="card-menu-title">Chick Soup With Rice</h3>
+                  <p class="card-menu-text">
+                    Chick, round rice, onion, carrot, cherry plums,turmeric
+                  </p>
+                  <ul class="list">
+                    <li class="card-menu-item">
+                      <span>Category:</span><span>Soups</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Availibility:</span><span>Available</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Weight:</span><span>130 g</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Vegetarian:</span><span>No</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-menu-price-bg">
+                  <p class="card-menu-price">$8.20</p>
+                </div>
               </li>
-              <li>
-                <img src="" alt="" />
-                <h3>Beef Languet With Potato</h3>
-                <p>Beef tenderloin, butter, black pepper, tomatoes, potato</p>
-                <ul>
-                  <li><span>Category:</span><span>Meat Courses</span></li>
-                  <li><span>Availibility:</span><span>Available</span></li>
-                  <li><span>Weight:</span><span>220 g</span></li>
-                  <li><span>Vegetarian:</span><span>No</span></li>
-                </ul>
-                <p>$18.50</p>
+              <li class="card-menu-style">
+                <div>
+                  <img
+                    class="card-menu-img"
+                    src="./images/card-menu3.jpg"
+                    alt="Beef Languet With Potato"
+                    width="270"
+                  />
+                  <h3 class="card-menu-title">Beef Languet With Potato</h3>
+                  <p class="card-menu-text">
+                    Beef tenderloin, butter, black pepper, tomatoes, potato
+                  </p>
+                  <ul class="list">
+                    <li class="card-menu-item">
+                      <span>Category:</span><span>Meat Courses</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Availibility:</span><span>Available</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Weight:</span><span>220 g</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Vegetarian:</span><span>No</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-menu-price-bg">
+                  <p class="card-menu-price">$18.50</p>
+                </div>
               </li>
-              <li>
-                <img src="" alt="" />
-                <h3>Chicken Languet With Potato</h3>
-                <p>Chicken fillet, potato, tomatoes</p>
-                <ul>
-                  <li><span>Category:</span><span>Chicken Courses</span></li>
-                  <li><span>Availibility:</span><span>Available</span></li>
-                  <li><span>Weight:</span><span>220 g</span></li>
-                  <li><span>Vegetarian:</span><span>No</span></li>
-                </ul>
-                <p>$12.50</p>
+              <li class="card-menu-style">
+                <div>
+                  <img
+                    class="card-menu-img"
+                    src="./images/card-menu4.jpg"
+                    alt="Chicken Languet With Potato"
+                    width="270"
+                  />
+                  <h3 class="card-menu-title">Chicken Languet With Potato</h3>
+                  <p class="card-menu-text">Chicken fillet, potato, tomatoes</p>
+                  <ul class="list">
+                    <li class="card-menu-item">
+                      <span>Category:</span><span>Chicken Courses</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Availibility:</span><span>Available</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Weight:</span><span>220 g</span>
+                    </li>
+                    <li class="card-menu-item">
+                      <span>Vegetarian:</span><span>No</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-menu-price-bg">
+                  <p class="card-menu-price">$12.50</p>
+                </div>
               </li>
             </ul>
           </div>
         </div>
       </section>
-      <div>
-        <h2>Our best dishes</h2>
-        <p>The best dishes of the city for our clients.</p>
-        <img src="./images/Rectangle 30.jpg" alt="" />
-        <img src="./images/Rectangle 31.jpg" alt="" />
-        <img src="./images/Rectangle 32 (1).png" alt="" />
-        <img src="./images/Rectangle 34.jpg" alt="" />
-        <img src="./images/Rectangle 33.jpg" alt="" />
-        <img src="./images/Rectangle 35.jpg" alt="" />
-      </div>
-      <section>
-        <div>
-          <div>
-            <h2>Reservation</h2>
-            <p>
+      <section class="section-bottom">
+        <div class="container">
+          <h2 class="section-title">Our best dishes</h2>
+          <p class="text gallery-text">
+            The best dishes of the city for our clients.
+          </p>
+          <ul class="list gallery">
+            <li>
+              <img
+                class="gallery-img"
+                src="./images/Rectangle 30.jpg"
+                alt=""
+                width="640"
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-img"
+                src="./images/Rectangle 31.jpg"
+                alt=""
+                width="640"
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-img"
+                src="./images/Rectangle 32 (1).png"
+                alt=""
+                width="1300"
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-img"
+                src="./images/Rectangle 34.jpg"
+                alt=""
+                width="420"
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-img"
+                src="./images/Rectangle 33.jpg"
+                alt=""
+                width="420"
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-img"
+                src="./images/Rectangle 35.jpg"
+                alt=""
+                width="420"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-bottom">
+        <div class="container reserv-container">
+          <div class="reserv-text-container">
+            <h2 id="Reservation" class="section-title">Reservation</h2>
+            <p class="text">
               We provide free, secure and instantly confirmed online
               reservation.
             </p>
           </div>
-          <div>
+          <div class="reserv-form">
             <input
-              class="modal-input"
+              class="reserv-name"
+              required
               type="text"
               name="full-name"
               placeholder="Full Name"
             />
             <input
-              class="modal-input"
+              class="reserv-phone"
+              required
               type="tel"
               name="phone-number"
               placeholder="Phone Number"
             />
             <textarea
-              class="modal-textarea"
+              class="reserv-message"
               name="user-comment"
               placeholder="Message"
             ></textarea>
             <label for="quantity">Guests</label>
             <input
-              class="modal-input"
+              class="reserv-quantity"
               id="quantity"
-              type="number"
+              type="text"
               name="quantity"
               placeholder="12"
             />
             <label for="date">Date</label>
             <input
-              class="modal-input"
+              class="reserv-date"
               id="date"
               type="date"
               name="date"
@@ -167,142 +315,209 @@
             />
             <label for="time">Time</label>
             <input
-              class="modal-input"
+              class="reserv-time"
               id="time"
               type="time"
               name="time"
               placeholder="00:00"
             />
-            <button type="button">Book</button>
+            <button class="reserv-button" type="button">Book</button>
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>Today Menu</h2>
-          <p>Dish of the day</p>
-          <div>
-            <img src="" alt="" />
+      <section class="section-bottom">
+        <div class="container">
+          <h2 class="section-title">Today Menu</h2>
+          <p class="text today-text">Dish of the day</p>
+          <div class="today-flex">
+            <div>
+              <img
+                class="today-img"
+                src="./images/today-menu.jpg"
+                alt=""
+                width="640"
+              />
+            </div>
+            <div>
+              <h3 class="today-menu-title">Chick Soup With Rice</h3>
+              <p class="today-menu-text">
+                Ingredients <br />Chick, round rice, onion, carrot, cherry
+                plums, turmeric.
+              </p>
+              <div class="today-price">
+                <button class="today-inc-dec" type="button">-</button>
+                <input
+                  class="today-quantity"
+                  type="number"
+                  name="number"
+                  placeholder="1"
+                />
+                <button class="today-inc-dec" type="button">+</button>
+                <p class="today-old-price">$8.20</p>
+                <p class="today-new-price">$7.38</p>
+              </div>
+              <div class="today-list">
+                <ul class="list today-list-title">
+                  <li><span>Category:</span></li>
+                  <li><span>Availibility:</span></li>
+                  <li><span>Weight:</span></li>
+                  <li><span>Vegetarian:</span></li>
+                </ul>
+                <ul class="list today-list-quantity">
+                  <li><span>Meat Courses</span></li>
+                  <li><span>Available</span></li>
+                  <li><span>220 g</span></li>
+                  <li><span>No</span></li>
+                </ul>
+              </div>
+
+              <button class="today-button" type="button">Add to card</button>
+            </div>
           </div>
+        </div>
+      </section>
+      <section class="section-bottom">
+        <div class="container about-container">
           <div>
-            <h3>Chick Soup With Rice</h3>
-            <p>
-              Ingredients Chick, round rice, onion, carrot, cherry plums,
-              turmeric.
+            <h2 id="About" class="section-title">About Us</h2>
+            <p class="text about-text">
+              Restoring authenticity to food from the ground up is the missioin
+              that drives us. Restauration is the realization of a dream.
             </p>
-            <button type="button">-</button>
-            <input type="number" name="number" placeholder="1" />
-            <button type="button">+</button>
-            <p>$8.20</p>
-            <p>$7.38</p>
-            <ul>
-              <li><span>Category:</span><span>Meat Courses</span></li>
-              <li><span>Availibility:</span><span>Available</span></li>
-              <li><span>Weight:</span><span>220 g</span></li>
-              <li><span>Vegetarian:</span><span>No</span></li>
-            </ul>
-            <button type="button">Add to card</button>
+            <img
+              class="about-img"
+              src="./images/about-us1.jpg"
+              alt=""
+              width="640"
+            />
+          </div>
+          <div>
+            <img
+              class="about-img"
+              src="./images/about-us2.jpg"
+              alt=""
+              width="640"
+            />
+            <p class="about-second-text">
+              Since 1987, at your service. After 16 years in the restaurant
+              business, 9 in farming, and several years dedicated to the study
+              of nutrition, we decided now was the right time to take all that
+              experience and synthesize it into a local eatery where people can
+              enjoy exquisite food, support local food producers, and eat the
+              kind of food they can feel good about.
+            </p>
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>About Us</h2>
-          <p>
-            Restoring authenticity to food from the ground up is the missioin
-            that drives us. Restauration is the realization of a dream.
+      <section class="section-bottom">
+        <div class="container">
+          <h2 class="section-title">Our Services</h2>
+          <p class="text service-text">
+            This is what we do and we do it perfectly.
           </p>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <p>
-            Since 1987, at your service. After 16 years in the restaurant
-            business, 9 in farming, and several years dedicated to the study of
-            nutrition, we decided now was the right time to take all that
-            experience and synthesize it into a local eatery where people can
-            enjoy exquisite food, support local food producers, and eat the kind
-            of food they can feel good about.
-          </p>
-        </div>
-      </section>
-      <section>
-        <div>
-          <h2>Our Services</h2>
-          <p>This is what we do and we do it perfectly.</p>
           <div>
-            <ul>
-              <li>
+            <ul class="list service-list">
+              <li class="service-card">
                 <div>
-                  <svg width="64" height="64">
-                    <use href=""></use>
+                  <svg class="service-icon" width="64" height="64">
+                    <use href="./images/icons.svg#icon-food"></use>
                   </svg>
                 </div>
-                <p>Fresh Healthy Food</p>
+                <p class="service-subtitle">Fresh Healthy Food</p>
               </li>
-              <li>
+              <li class="service-card">
                 <div>
-                  <svg width="64" height="64">
-                    <use href=""></use>
+                  <svg class="service-icon" width="64" height="64">
+                    <use href="./images/icons.svg#icon-delivery"></use>
                   </svg>
                 </div>
-                <p>Free Fast Home Delivery</p>
+                <p class="service-subtitle">Free Fast Home Delivery</p>
               </li>
-              <li>
+              <li class="service-card">
                 <div>
-                  <svg width="64" height="64">
-                    <use href=""></use>
+                  <svg class="service-icon" width="64" height="64">
+                    <use href="./images/icons.svg#icon-discount"></use>
                   </svg>
                 </div>
-                <p>Discount Voucher</p>
+                <p class="service-subtitle">Discount Voucher</p>
               </li>
-              <li>
+              <li class="service-card">
                 <div>
-                  <svg width="64" height="64">
-                    <use href=""></use>
+                  <svg class="service-icon" width="64" height="64">
+                    <use href="./images/icons.svg#icon-time"></use>
                   </svg>
                 </div>
-                <p>On Time Service</p>
+                <p class="service-subtitle">On Time Service</p>
               </li>
             </ul>
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <div>
-            <h2>Meet our chefs</h2>
-            <p>What can be better than food prepared with love</p>
+      <section class="section-bottom">
+        <div class="container chefs-container">
+          <div class="chefs-title-container">
+            <div>
+              <h2 class="section-title">Meet our chefs</h2>
+              <p class="text">
+                What can be better than food prepared with love
+              </p>
+            </div>
+            <ul class="list slider-button-set">
+              <li><button class="slider-button" type="button"><</button></li>
+              <li><button class="slider-button" type="button">></button></li>
+            </ul>
           </div>
           <div>
-            <ul>
-              <li>
-                <img src="" alt="" />
-                <h3>Andy Warhol</h3>
-                <p>Head of Chef</p>
+            <ul class="list chefs-list">
+              <li class="chefs-style">
+                <img
+                  class="chefs-img"
+                  src="./images/chef-card1.jpg"
+                  alt=""
+                  width="277"
+                />
+                <h3 class="chef-title">Andy Warhol</h3>
+                <p class="chef-subtitle">Head of Chef</p>
               </li>
-              <li>
-                <img src="" alt="" />
-                <h3>Lusia Manuel</h3>
-                <p>Assistant Chef</p>
+              <li class="chefs-style">
+                <img
+                  class="chefs-img"
+                  src="./images/chef-card2.jpg"
+                  alt=""
+                  width="277"
+                />
+                <h3 class="chef-title">Lusia Manuel</h3>
+                <p class="chef-subtitle">Assistant Chef</p>
               </li>
-              <li>
-                <img src="" alt="" />
-                <h3>Michael Blair</h3>
-                <p>Intern Chef</p>
+              <li class="chefs-style">
+                <img
+                  class="chefs-img"
+                  src="./images/chef-card3.jpg"
+                  alt=""
+                  width="277"
+                />
+                <h3 class="chef-title">Michael Blair</h3>
+                <p class="chef-subtitle">Intern Chef</p>
               </li>
-              <li>
-                <img src="" alt="" />
-                <h3>Tereza Stiles</h3>
-                <p>Assistant Chef</p>
+              <li class="chefs-style">
+                <img
+                  class="chefs-img"
+                  src="./images/chef-card4.jpg"
+                  alt=""
+                  width="277"
+                />
+                <h3 class="chef-title">Tereza Stiles</h3>
+                <p class="chef-subtitle">Assistant Chef</p>
               </li>
             </ul>
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <div>
-            <h2>Our Awards</h2>
-            <p>
+      <section class="section-bottom">
+        <div class="container">
+          <div class="awards-container">
+            <h2 class="section-title">Our Awards</h2>
+            <p class="awards-text">
               Our Restaurant is the best restourant in the country and been
               recognized with many awards. We promise to provide excellent
               service to you forever for happiness and success. For getting more
@@ -310,31 +525,39 @@
             </p>
           </div>
           <div>
-            <ul>
-              <li><img src="" alt="" /></li>
-              <li><img src="" alt="" /></li>
-              <li><img src="" alt="" /></li>
-              <li><img src="" alt="" /></li>
+            <ul class="list awards-list">
+              <li class="award-item">
+                <img src="./images/award1.png" alt="" />
+              </li>
+              <li class="award-item">
+                <img src="./images/award2.png" alt="" />
+              </li>
+              <li class="award-item">
+                <img src="./images/award3.png" alt="" />
+              </li>
+              <li class="award-item">
+                <img src="./images/award4.png" alt="" />
+              </li>
             </ul>
           </div>
         </div>
       </section>
     </main>
     <footer>
-      <div>
+      <div class="container">
         <div>
           <img src="./images/image 367.png" alt="Logo" />
         </div>
         <div>
-          <ul>
-            <li><a href="">Reservation</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">About Us</a></li>
+          <ul class="l.">
+            <li><a class="link" href="">Reservation</a></li>
+            <li><a class="link" href="">Menu</a></li>
+            <li><a class="link" href="">Contact</a></li>
+            <li><a class="link" href="">About Us</a></li>
           </ul>
         </div>
         <div>
-          <address>
+          <address id="Contacts">
             <ul>
               <li>2903 Avenue X, Brooklyn, NY</li>
               <li>(+100) 123 456 7890</li>
